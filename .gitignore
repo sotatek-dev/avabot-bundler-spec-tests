@@ -3,3 +3,7 @@ __pycache__/
 .idea/
 dist/
 /.pdm.toml
+.vscode
+geth-*
+.DS_Store
+.pdm-python

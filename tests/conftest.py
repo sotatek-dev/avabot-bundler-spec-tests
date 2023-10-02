@@ -6,7 +6,7 @@ import pytest
 from solcx import install_solc
 from web3 import Web3
 from web3.middleware import geth_poa_middleware
-from .types import UserOperation, RPCRequest, CommandLineArgs
+from .types import UserOperation, RPCRequest, CommandLineArgs, UserOperationCustomGas
 from .utils import (
     deploy_wallet_contract,
     deploy_and_deposit,
@@ -101,12 +101,11 @@ def userop(wallet_contract):
     )
 
 @pytest.fixture
-def userop_bundleGasPrice(wallet_contract):
-    return UserOperation(
+def userop_customGas(wallet_contract):
+    return UserOperationCustomGas(
         sender=wallet_contract.address,
         callData=wallet_contract.encodeABI(fn_name="setState", args=[1111111]),
         signature="0xface",
-        bundleGasPrice=hex(3 * 10**9)
     )
 
 
