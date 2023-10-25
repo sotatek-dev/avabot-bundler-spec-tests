@@ -1,4 +1,4 @@
-### SmartAccount on backend using private key
+# SmartAccount on backend using private key
 
 This is a cli to demonstrate how to use a private key to sign transactions on the backend with new Biconomy SDK.
 To enable logging export below flag
@@ -11,8 +11,8 @@ yarn install
 ```
 
 ## Test send multiple userOps 
-# bundleGasPrice: gas price
-# count: number of userops to run
+### bundleGasPrice: gas price
+### count: number of userops to run
 yarn run smartAccount transferWithGasPrice --to=0xff93B45308FD417dF303D6515aB04D9e89a750Ca --amount=0.000000000000000001 --bundleGasPrice 28000000000 --count 10
 
 
