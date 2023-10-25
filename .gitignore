@@ -3,3 +3,7 @@ __pycache__/
 .idea/
 dist/
 /.pdm.toml
+
+node_modules/
+yarn.lock
+.DS_Store
