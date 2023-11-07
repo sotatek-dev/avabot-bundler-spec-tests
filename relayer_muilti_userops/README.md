@@ -13,7 +13,7 @@ yarn install
 ## Test send multiple userOps 
 
 ```bash
-yarn run smartAccount transferWithGasPrice --to=0xff93B45308FD417dF303D6515aB04D9e89a750Ca --amount=0.000000000000000001 --bundleGasPrice 28000000000 --count 10
+yarn run smartAccount transferWithGasPrice --to=0x36dDB215D1d51f27DE5b39001A25b00E7131ff3C --amount=0.0001 --bundleGasPrice 28000000000 --count 10
 # bundleGasPrice: gas price
 # count: number of userops to run
 ```

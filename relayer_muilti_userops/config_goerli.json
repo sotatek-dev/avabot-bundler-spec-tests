@@ -1,11 +1,11 @@
 {
   "privateKey": "0xdbf2d71945117deb00187d2c93f7f9cb53679fedfcb489b5db84569f9fca0974",
   "accountIndex": 0,
-  "chainId": 80001,
-  "rpcUrl": "https://polygon-mumbai.g.alchemy.com/v2/1stRl8L34kWXUi_Eo0jqQkS-x0Nr6yjH",
-  "bundlerUrl": "http://0.0.0.0:14337/80001/",
+  "chainId": 5,
+  "rpcUrl": "https://eth-goerli.rpc.sotatek.works/",
+  "bundlerUrl": "http://0.0.0.0:14337/5/",
   "biconomyPaymasterUrl": "https://paymaster.biconomy.io/api/v1/80001/t0qB_aRbi.8ff68d01-0b9e-44f7-a6f9-407c0b48ad2b",
   "preferredToken": "",
   "tokenList": [],
-  "mnemonic": "pulse captain crumble because tiny verify else calm crazy where tomato orange"
+  "mnemonic": "same dream hour group humor chat together decrease fiscal galaxy friend absent"
 }
